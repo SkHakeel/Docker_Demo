@@ -1,0 +1,10 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+   name: redis-pod
+spec:
+   containers:
+   - name: first-container01
+     image: dockerdemo:latest
+     ports:
+     - containerPort: 80
