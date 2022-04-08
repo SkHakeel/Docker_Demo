@@ -1,10 +1,10 @@
 ﻿apiVersion: v1
 kind: Pod
 metadata:
-   name: redis-pod
+   name: firstapptest
 spec:
    containers:
    - name: first-container01
-     image: dockerdemo:latest
+     image: dockerdemo
      ports:
-     - containerPort: 80
+     - containerPort: 8080
