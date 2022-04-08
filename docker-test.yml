@@ -6,5 +6,6 @@ spec:
    containers:
    - name: first-container01
      image: dockerdemo
+     imagePullPolicy: Never
      ports:
      - containerPort: 8080
